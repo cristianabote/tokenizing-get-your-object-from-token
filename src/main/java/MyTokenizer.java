@@ -1,5 +1,12 @@
 public class MyTokenizer {
     public static void main(String[] args){
+        /*
+    Let's consider the class Student with the following fields: id, firstName, lastName, city, nativeLanguage, grade.
+    Please write this class in Java and define a string representation for it (e.g.: 1,Andrei,Mladin,Cluj-Napoca,Romana,10).
+     Define a delimiter (any of: ,;:.).
+    Override toString() method to return this representation.
+    Do tokenize a such string and create the Student object with the data found there.
+    */
 
         Student cristiana = new Student("25","Cristiana", "Bote","Cluj-Napoca", "Romana", 10);
         cristiana.setCity("Floresti");
@@ -19,12 +26,6 @@ public class MyTokenizer {
         System.out.println("noul student creat este " + andrei);
 
     }
-    /*
-    Let's consider the class Student with the following fields: id, firstName, lastName, city, nativeLanguage, grade.
-    Please write this class in Java and define a string representation for it (e.g.: 1,Andrei,Mladin,Cluj-Napoca,Romana,10).
-     Define a delimiter (any of: ,;:.).
-    Override toString() method to return this representation.
-    Do tokenize a such string and create the Student object with the data found there.
-    */
+
 }
 
